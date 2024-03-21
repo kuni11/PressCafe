@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: "Lora";
+  font-weight: 400;
+  font-size: 12px;
+}
+#Home header {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+header {
+  background: #cab0ab;
+  height: auto;
+  padding: 10px;
+}
+header img {
+  width: 300px;
+  margin: 10px 0 0 30px;
+}
+nav {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+nav ul li {
+  font-size: 18px;
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+}
+nav ul li a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin-right: 5px;
+}
+nav a:hover {
+  color: black;
+}
+#Blurp h1 {
+  font-family: "Open Sans";
+  font-size: 96px;
+  font-weight: 800;
+  color: #88ebf2;
+  margin-bottom: -25px;
+  margin-top: 42rem;
+  margin-left: 40px;
+}
+#Blurp h2 {
+  font-family: "Open Sans";
+  color: white;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 40px;
+  margin-top: 0;
+  margin-left: 40px;
+}
+#Home main {
+  background-color: #d6d2d2;
+  margin-top: 0;
+  height: auto;
+}
+
+section {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+section h2 {
+  text-align: center;
+  letter-spacing: 14px;
+  font-weight: 500;
+  font-family: "Open Sans";
+}
+section h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 2px;
+  font-family: "Open Sans";
+  text-align: center;
+}
+section p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lora";
+  text-align: left;
+}
+.Card img {
+  width: 290px;
+}
+.Card-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  max-width: 960px;
+}
+.Card {
+  width: 280px;
+  margin: 0 15px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding: 15px;
+}
+
+footer {
+  background-color: #88ebf2;
+  padding: 50px 0;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  flex: 1;
+}
+.footer-right {
+  margin-top: 17px;
+  flex: 10;
+  margin-left: 10px;
+}
+.footer-right .map-container {
+  display: flex;
+}
+.footer-right .map-container img {
+  width: 300px;
+  margin: 0 20px;
+  transform: translateY(1rem);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid gray;
+}
+
+.NavFooter {
+  clear: both;
+  margin-top: 30px;
+  text-align: center;
+}
+.NavFooter ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.NavFooter ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.NavFooter ul li:last-child {
+  margin-right: 0;
+}
+.NavFooter ul li a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  font-weight: 600;
+  margin-right: 9px;
+}
+.NavFooter ul li a:hover {
+  color: white;
+}
+.footer-left p {
+  font-size: 14px;
+  font-weight: 600;
+}
+#info1 {
+  font-family: "Lora";
+}
+.footer-right p {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.SubFooter {
+  background-color: #426768;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.SubFooter div {
+  height: 70px;
+  display: flex;
+  width: 960px;
+  align-items: center;
+  justify-content: space-between;
+}
