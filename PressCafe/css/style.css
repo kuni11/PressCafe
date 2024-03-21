@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;600;800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url(../images/mainbanner.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+header img {
+  width: 300px;
+  margin: 10px 0 0 30px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+nav ul li {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #88ebf2;
+}
+
+#blurb {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+#blurb h1 {
+  font-size: 96px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #88ebf2;
+  margin-bottom: -25px;
+}
+#blurb h2 {
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 40px;
+  margin-top: 0;
+}
+
+main {
+  background-color: #ddd9d8;
+  height: 700px;
+}
+section {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+section h2,
+section h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+section h2 {
+  padding-bottom: 30px;
+  padding-top: 35px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+}
+section h3 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+
+.card {
+  font-size: 14px;
+  float: left;
+  margin-left: 30px;
+  width: 290px;
+  padding-bottom: 30px;
+}
+.card img {
+  width: 290px;
+}
+
+.address {
+  font-size: 12px;
+  font-weight: 400;
+  width: 285px;
+  float: right;
+}
+footer {
+  background-color: #88ebf2;
+  height: 240px;
+}
+#footeraddress {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  padding-bottom: 30px;
+}
+.contacts,
+.mapny,
+.mapmilan {
+  width: 300px;
+  float: left;
+}
+.contacts p {
+  font-size: 14px;
+}
+.contacts img {
+  width: 300px;
+}
+footer p {
+  color: #0d7077;
+}
+.tagline,
+.navlinks ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  float: left;
+}
+.tagline p,
+.navlinks ul li {
+  margin: 30px;
+  margin-left: 30px;
+  margin-right: 0;
+}
+.mapny,
+.mapmilan {
+  margin-left: 30px;
+}
+.navlinks ul li {
+  margin-top: 10px;
+  list-style: none;
+  letter-spacing: 4.25px;
+}
+.navlinks ul li a {
+  color: #163a3c;
+  text-decoration: none;
+}
+.navlinks ul li a:hover {
+  color: #000000;
+  text-decoration: dashed;
+  font-weight: 400;
+}
+section {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#subfooter {
+  background-color: #60a4a9;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  height: 50px;
+  padding-top: 10px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  margin: 0 0;
+}
